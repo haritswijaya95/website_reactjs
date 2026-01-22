@@ -1,0 +1,24 @@
+.tutorsList {
+  display: flex;         /* Membuat item di dalamnya menyamping */
+  flex-wrap: wrap;      /* Supaya pindah ke baris baru jika layar sempit */
+  justify-content: center; /* Membuat daftar tutor berada di tengah layar */
+  gap: 20px;            /* Memberikan jarak antar kartu */
+  padding: 20px;
+}
+
+.kartu-tutor {
+  width: 150px;         /* Lebar tiap kotak tutor */
+  text-align: center;
+}
+
+.kartu-tutor img {
+  width: 100%;          /* Lebar gambar mengikuti kotak */
+  height: 200px;        /* Tinggi gambar disamakan */
+  object-fit: cover;    /* Foto tidak gepeng walau ukuran aslinya beda */
+  border-radius: 20px;  /* Membuat sudut gambar sedikit melengkung */
+}
+
+.tutor-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
